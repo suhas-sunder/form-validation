@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 
-function form() {
+function Form() {
   return (
     <form className="flex flex-col items-center gap-10">
       <div className="flex flex-col items-start text-2xl text-slate-600">
@@ -15,4 +15,4 @@ function form() {
   );
 }
 
-export default form;
+export default Form;
