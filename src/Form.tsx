@@ -2,7 +2,6 @@ import { useState, useRef } from "react";
 
 function Form() {
   const [focused, setFocused] = useState<boolean>(false);
-  
 
   const handleSubmission = (e) => {
     e.preventDefault();
